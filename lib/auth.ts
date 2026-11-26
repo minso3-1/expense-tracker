@@ -1,6 +1,6 @@
 import { cookies } from 'next/headers'
 import bcrypt from 'bcryptjs'
-import { prisma } from './prisma' // убедитесь, что путь правильный
+import { prisma } from './prisma'
 
 const SESSION_COOKIE = 'sessionId'
 const SESSION_DAYS = 7
